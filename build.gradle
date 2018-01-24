@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    maven { url 'repo' }
+    jcenter()
+}
+
+dependencies {
+    implementation 'nebula.example:bom:1.0.0@pom'
+    implementation 'com.google.guava:guava'
+}
